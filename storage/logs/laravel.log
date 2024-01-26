@@ -1,0 +1,41 @@
+[2024-01-26 18:46:16] local.ERROR: Command "migrate:frech" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"migrate:frech\" is not defined.
+
+Did you mean one of these?
+    migrate
+    migrate:fresh
+    migrate:install
+    migrate:refresh
+    migrate:reset
+    migrate:rollback
+    migrate:status at /home/bouty/Desktop/Vente en ligne/Vente_en_ligne/vendor/symfony/console/Application.php:737)
+[stacktrace]
+#0 /home/bouty/Desktop/Vente en ligne/Vente_en_ligne/vendor/symfony/console/Application.php(266): Symfony\\Component\\Console\\Application->find()
+#1 /home/bouty/Desktop/Vente en ligne/Vente_en_ligne/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/bouty/Desktop/Vente en ligne/Vente_en_ligne/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#3 /home/bouty/Desktop/Vente en ligne/Vente_en_ligne/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#4 {main}
+"} 
+[2024-01-26 21:19:47] local.ERROR: There are no commands defined in the "storge" namespace.
+
+Did you mean this?
+    storage {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"storge\" namespace.
+
+Did you mean this?
+    storage at /home/bouty/Desktop/Vente en ligne/Vente_en_ligne/vendor/symfony/console/Application.php:669)
+[stacktrace]
+#0 /home/bouty/Desktop/Vente en ligne/Vente_en_ligne/vendor/symfony/console/Application.php(720): Symfony\\Component\\Console\\Application->findNamespace()
+#1 /home/bouty/Desktop/Vente en ligne/Vente_en_ligne/vendor/symfony/console/Application.php(266): Symfony\\Component\\Console\\Application->find()
+#2 /home/bouty/Desktop/Vente en ligne/Vente_en_ligne/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#3 /home/bouty/Desktop/Vente en ligne/Vente_en_ligne/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#4 /home/bouty/Desktop/Vente en ligne/Vente_en_ligne/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
